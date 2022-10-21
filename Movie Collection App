@@ -1,0 +1,25 @@
+movies = []
+
+title = input("Enter the movie title: ")
+director = input("Enter director's name: ")
+year = input("Enter year of release: ")
+
+movies.append({
+    'title': title,
+    'director': director,
+    'year': year
+})
+
+MENU_PROMPT = "\nEnter 'a' to add a movie, 'l' too see your movies, 'f' to find a movie by title, or 'q' to quit: "
+
+selection = input(MENU_PROMPT)
+while selection != 'q':
+    if selection == 'a':
+        pass
+    elif  selection == 'l':
+        pass
+    elif selction == 'f':
+        pass
+    else:
+        print("Unknown command. Please try again.")
+    selection = input(MENU_PROMPT)
